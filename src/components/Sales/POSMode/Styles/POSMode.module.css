@@ -1,0 +1,17 @@
+.largerButton {
+  min-width: 300px;
+  color: #5f22d9 !important;
+  /* border: black 1px solid !important; */
+}
+.iconColor {
+  color: #5f22d9 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .largerButton {
+    min-width: unset;
+  }
+}
+*{
+  color: black !important;
+}

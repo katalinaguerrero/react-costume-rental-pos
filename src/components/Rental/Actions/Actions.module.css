@@ -1,0 +1,21 @@
+.buttonPrimary {
+  background-color: #5f22d9 !important;
+  color: white !important;
+  transition: background-color 0.3s ease;
+}
+
+.buttonPrimary:hover {
+  background-color: #5a30a0 !important;
+  color: white !important;
+}
+
+.gridActions{
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .gridActions {
+    flex-direction: column; /* Cambia de fila a columna en pantallas pequeñas */
+    gap: 0.5rem; /* Ajusta el espacio entre los elementos */
+  }
+}
